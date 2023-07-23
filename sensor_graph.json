@@ -1,0 +1,110 @@
+{
+  "Environmental Sensors": [
+    {
+      "Graph Type": "Line Chart",
+      "D3.js Example": "https://observablehq.com/@d3/line-chart"
+    },
+    {
+      "Graph Type": "Area Chart",
+      "D3.js Example": "https://observablehq.com/@d3/area-chart"
+    },
+    {
+      "Graph Type": "Heatmap",
+      "D3.js Example": "https://observablehq.com/@d3/heat-map"
+    },
+    {
+      "Graph Type": "Scatter Plot",
+      "D3.js Example": "https://observablehq.com/@d3/scatter-plot"
+    }
+  ],
+  "Motion Sensors": [
+    {
+      "Graph Type": "Bar Chart",
+      "D3.js Example": "https://observablehq.com/@d3/bar-chart"
+    },
+    {
+      "Graph Type": "Pie Chart",
+      "D3.js Example": "https://observablehq.com/@d3/pie-chart"
+    },
+    {
+      "Graph Type": "Bubble Chart",
+      "D3.js Example": "https://observablehq.com/@d3/bubble-chart"
+    },
+    {
+      "Graph Type": "Force-Directed Graph",
+      "D3.js Example": "https://observablehq.com/@d3/force-directed-graph"
+    }
+  ],
+  "Position Sensors": [
+    {
+      "Graph Type": "Map Visualization",
+      "D3.js Example": "https://observablehq.com/@d3/choropleth"
+    },
+    {
+      "Graph Type": "Compass Visualization",
+      "D3.js Example": "https://observablehq.com/@d3/compass-rose"
+    },
+    {
+      "Graph Type": "Path Visualization",
+      "D3.js Example": "https://observablehq.com/@d3/path"
+    }
+  ],
+  "Biometric Sensors": [
+    {
+      "Graph Type": "Gauge Chart",
+      "D3.js Example": "https://observablehq.com/@d3/gauge-chart"
+    },
+    {
+      "Graph Type": "Radar Chart",
+      "D3.js Example": "https://observablehq.com/@d3/radar-chart"
+    },
+    {
+      "Graph Type": "Polar Area Chart",
+      "D3.js Example": "https://observablehq.com/@d3/polar-area-chart"
+    }
+  ],
+  "Image and Video Sensors": [
+    {
+      "Graph Type": "Image Gallery",
+      "D3.js Example": "https://observablehq.com/@d3/image-gallery"
+    },
+    {
+      "Graph Type": "Video Player",
+      "D3.js Example": "https://observablehq.com/@d3/video-player"
+    }
+  ],
+  "Sound Sensors": [
+    {
+      "Graph Type": "Waveform Visualization",
+      "D3.js Example": "https://observablehq.com/@d3/waveform"
+    },
+    {
+      "Graph Type": "Spectrogram",
+      "D3.js Example": "https://observablehq.com/@d3/spectrogram"
+    }
+  ],
+  "Chemical Sensors": [
+    {
+      "Graph Type": "Concentration Plot",
+      "D3.js Example": "https://observablehq.com/@d3/concentration-plot"
+    }
+  ],
+  "Touch Sensors": [
+    {
+      "Graph Type": "Interactive SVG",
+      "D3.js Example": "https://observablehq.com/@d3/interactive-svg"
+    }
+  ],
+  "Motion Detection Sensors": [
+    {
+      "Graph Type": "Motion Detection Visualization",
+      "D3.js Example": "https://observablehq.com/@d3/motion-detection"
+    }
+  ],
+  "Proximity Sensors": [
+    {
+      "Graph Type": "Proximity Visualization",
+      "D3.js Example": "https://observablehq.com/@d3/proximity-visualization"
+    }
+  ]
+}
