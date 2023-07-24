@@ -1,110 +1,150 @@
 {
-  "Environmental Sensors": [
-    {
-      "Graph Type": "Line Chart",
-      "D3.js Example": "https://observablehq.com/@d3/line-chart"
-    },
-    {
-      "Graph Type": "Area Chart",
-      "D3.js Example": "https://observablehq.com/@d3/area-chart"
-    },
-    {
-      "Graph Type": "Heatmap",
-      "D3.js Example": "https://observablehq.com/@d3/heat-map"
-    },
-    {
-      "Graph Type": "Scatter Plot",
-      "D3.js Example": "https://observablehq.com/@d3/scatter-plot"
-    }
-  ],
-  "Motion Sensors": [
-    {
-      "Graph Type": "Bar Chart",
-      "D3.js Example": "https://observablehq.com/@d3/bar-chart"
-    },
-    {
-      "Graph Type": "Pie Chart",
-      "D3.js Example": "https://observablehq.com/@d3/pie-chart"
-    },
-    {
-      "Graph Type": "Bubble Chart",
-      "D3.js Example": "https://observablehq.com/@d3/bubble-chart"
-    },
-    {
-      "Graph Type": "Force-Directed Graph",
-      "D3.js Example": "https://observablehq.com/@d3/force-directed-graph"
-    }
-  ],
-  "Position Sensors": [
-    {
-      "Graph Type": "Map Visualization",
-      "D3.js Example": "https://observablehq.com/@d3/choropleth"
-    },
-    {
-      "Graph Type": "Compass Visualization",
-      "D3.js Example": "https://observablehq.com/@d3/compass-rose"
-    },
-    {
-      "Graph Type": "Path Visualization",
-      "D3.js Example": "https://observablehq.com/@d3/path"
-    }
-  ],
-  "Biometric Sensors": [
-    {
-      "Graph Type": "Gauge Chart",
-      "D3.js Example": "https://observablehq.com/@d3/gauge-chart"
-    },
-    {
-      "Graph Type": "Radar Chart",
-      "D3.js Example": "https://observablehq.com/@d3/radar-chart"
-    },
-    {
-      "Graph Type": "Polar Area Chart",
-      "D3.js Example": "https://observablehq.com/@d3/polar-area-chart"
-    }
-  ],
-  "Image and Video Sensors": [
-    {
-      "Graph Type": "Image Gallery",
-      "D3.js Example": "https://observablehq.com/@d3/image-gallery"
-    },
-    {
-      "Graph Type": "Video Player",
-      "D3.js Example": "https://observablehq.com/@d3/video-player"
-    }
-  ],
-  "Sound Sensors": [
-    {
-      "Graph Type": "Waveform Visualization",
-      "D3.js Example": "https://observablehq.com/@d3/waveform"
-    },
-    {
-      "Graph Type": "Spectrogram",
-      "D3.js Example": "https://observablehq.com/@d3/spectrogram"
-    }
-  ],
-  "Chemical Sensors": [
-    {
-      "Graph Type": "Concentration Plot",
-      "D3.js Example": "https://observablehq.com/@d3/concentration-plot"
-    }
-  ],
-  "Touch Sensors": [
-    {
-      "Graph Type": "Interactive SVG",
-      "D3.js Example": "https://observablehq.com/@d3/interactive-svg"
-    }
-  ],
-  "Motion Detection Sensors": [
-    {
-      "Graph Type": "Motion Detection Visualization",
-      "D3.js Example": "https://observablehq.com/@d3/motion-detection"
-    }
-  ],
-  "Proximity Sensors": [
-    {
-      "Graph Type": "Proximity Visualization",
-      "D3.js Example": "https://observablehq.com/@d3/proximity-visualization"
-    }
-  ]
+  "Environmental Sensors": {
+    "Temperature Sensor": [
+      "Line Chart",
+      "Area Chart",
+      "Heatmap",
+      "Scatter Plot"
+    ],
+    "Humidity Sensor": [
+      "Line Chart",
+      "Area Chart",
+      "Heatmap",
+      "Scatter Plot"
+    ],
+    "Pressure Sensor": [
+      "Line Chart",
+      "Area Chart",
+      "Heatmap",
+      "Scatter Plot"
+    ],
+    "Light Sensor": [
+      "Line Chart",
+      "Area Chart",
+      "Heatmap",
+      "Scatter Plot"
+    ],
+    "Air Quality Sensor": [
+      "Line Chart",
+      "Area Chart",
+      "Heatmap",
+      "Scatter Plot"
+    ]
+  },
+  "Motion Sensors": {
+    "Accelerometer": [
+      "Bar Chart",
+      "Pie Chart",
+      "Bubble Chart",
+      "Force-Directed Graph"
+    ],
+    "Gyroscope": [
+      "Bar Chart",
+      "Pie Chart",
+      "Bubble Chart",
+      "Force-Directed Graph"
+    ],
+    "Magnetometer": [
+      "Bar Chart",
+      "Pie Chart",
+      "Bubble Chart",
+      "Force-Directed Graph"
+    ],
+    "Proximity Sensor": [
+      "Bar Chart",
+      "Pie Chart",
+      "Bubble Chart",
+      "Force-Directed Graph"
+    ]
+  },
+  "Position Sensors": {
+    "GPS Sensor": [
+      "Map Visualization",
+      "Compass Visualization",
+      "Path Visualization"
+    ],
+    "Compass Sensor": [
+      "Map Visualization",
+      "Compass Visualization",
+      "Path Visualization"
+    ]
+  },
+  "Biometric Sensors": {
+    "Fingerprint Sensor": [
+      "Gauge Chart",
+      "Radar Chart",
+      "Polar Area Chart"
+    ],
+    "Iris Scanner": [
+      "Gauge Chart",
+      "Radar Chart",
+      "Polar Area Chart"
+    ],
+    "Facial Recognition Sensor": [
+      "Gauge Chart",
+      "Radar Chart",
+      "Polar Area Chart"
+    ],
+    "Heart Rate Sensor": [
+      "Gauge Chart",
+      "Radar Chart",
+      "Polar Area Chart"
+    ]
+  },
+  "Image and Video Sensors": {
+    "Camera Sensor": [
+      "Image Gallery",
+      "Video Player"
+    ],
+    "Depth Sensor": [
+      "Image Gallery",
+      "Video Player"
+    ],
+    "IR Sensor (Infrared)": [
+      "Image Gallery",
+      "Video Player"
+    ]
+  },
+  "Sound Sensors": {
+    "Microphone": [
+      "Waveform Visualization",
+      "Spectrogram"
+    ],
+    "Noise Sensor": [
+      "Waveform Visualization",
+      "Spectrogram"
+    ]
+  },
+  "Chemical Sensors": {
+    "Gas Sensor": [
+      "Concentration Plot"
+    ],
+    "Smoke Sensor": [
+      "Concentration Plot"
+    ]
+  },
+  "Touch Sensors": {
+    "Capacitive Touch Sensor": [
+      "Interactive SVG"
+    ],
+    "Resistive Touch Sensor": [
+      "Interactive SVG"
+    ]
+  },
+  "Motion Detection Sensors": {
+    "Motion Detector": [
+      "Motion Detection Visualization"
+    ],
+    "Occupancy Sensor": [
+      "Motion Detection Visualization"
+    ]
+  },
+  "Proximity Sensors": {
+    "Proximity Sensor": [
+      "Proximity Visualization"
+    ],
+    "Distance Sensor": [
+      "Proximity Visualization"
+    ]
+  }
 }
